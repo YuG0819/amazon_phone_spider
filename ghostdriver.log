@@ -1,0 +1,55 @@
+[INFO  - 2019-02-22T07:36:46.877Z] GhostDriver - Main - running on port 11364
+[INFO  - 2019-02-22T07:36:49.194Z] Session [9d220730-3674-11e9-8564-f9e434a21396] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-02-22T07:36:49.194Z] Session [9d220730-3674-11e9-8564-f9e434a21396] - page.customHeaders:  - {}
+[INFO  - 2019-02-22T07:36:49.194Z] Session [9d220730-3674-11e9-8564-f9e434a21396] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-02-22T07:36:49.195Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9d220730-3674-11e9-8564-f9e434a21396
+[ERROR - 2019-02-22T07:37:28.061Z] Session [9d220730-3674-11e9-8564-f9e434a21396] - page.onError - msg: ReferenceError: Can't find variable: HTMLVideoElement
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-22T07:37:28.062Z] Session [9d220730-3674-11e9-8564-f9e434a21396] - page.onError - stack:
+  (anonymous function) (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1025)
+  t (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1007)
+  (anonymous function) (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1030)
+  (anonymous function) (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1030)
+  t (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1007)
+  (anonymous function) (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1042)
+  t (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1007)
+  (anonymous function) (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1007)
+  (anonymous function) (https://assets.bbystatic.com/pdp/javascript/pdp-l-9b7736d4133908696055a1c3e3fd7506.js:1007)
+  execCb (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  check (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  each (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  each (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  each (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  each (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  each (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  each (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  enable (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  init (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+  (anonymous function) (https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js:12)
+
+  phantomjs://platform/console++.js:263 in error
